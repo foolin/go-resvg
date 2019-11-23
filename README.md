@@ -58,8 +58,9 @@ In order to use vcpkg packages, you first need to clone the vcpkg repository,
 ```
 git clone https://github.com/Microsoft/vcpkg
 cd vcpkg
+.\bootstrap-vcpkg.bat
 ```
-.\bootstrap-vcpkg.bat You can then install the GTK packages with
+You can then install the GTK packages with
 ```
 vcpkg install gtk:x64-windows
 ```
